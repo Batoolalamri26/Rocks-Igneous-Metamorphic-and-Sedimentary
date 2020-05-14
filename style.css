@@ -89,33 +89,33 @@ font-family: 'Dancing Script', cursive;
 
 @keyframes slide{
   0%{
-    background-image: url('images/rock1.jpg');
+    background-image: url('rock1.jpg');
   }
   20%{
-    background-image: url('images/rock1.jpg');
+    background-image: url('rock1.jpg');
   }
   20.01%{
-    background-image: url('images/rock2.jpg');
+    background-image: url('rock2.jpg');
   }
   40%{
-    background-image: url('images/rock2.jpg');
+    background-image: url('rock2.jpg');
   }
   40.01%{
-    background-image: url('images/rock3.jpg');
+    background-image: url('rock3.jpg');
   }
   60%{
-    background-image: url('images/rock3.jpg');
+    background-image: url('rock3.jpg');
   }
   60.01%{
-    background-image: url('images/rock4.jpg');
+    background-image: url('rock4.jpg');
   }
   80%{
-    background-image: url('images/rock4.jpg');
+    background-image: url('rock4.jpg');
   }
    80.01%{
-    background-image: url('images/rock5.jpg');
+    background-image: url('rock5.jpg');
   }
    100%{
-    background-image: url('images/rock5.jpg');
+    background-image: url('rock5.jpg');
   }
 }
