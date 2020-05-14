@@ -1,0 +1,121 @@
+
+
+html {
+font-size: 150%;
+background-color: #AAB7B8;}
+
+
+body, button, input {
+    font-family: 'Lobster', cursive;
+      font-style: normal;
+            }
+            nav {
+              font-family: 'Lobster', cursive;
+    background-color:#34495E;
+  text-align: center;
+
+            }
+            nav ul{
+                margin: 0;
+
+            }
+            nav li{
+
+              display: inline-block;
+            }
+
+            nav li a{
+
+              display: inline-block;
+              font-size: 20px;
+              font-style: bold;
+              font-weight: 300;
+              text-decoration: none;
+              padding: 16px 38px;
+              color: white;
+
+            }
+
+            nav li a:hover{
+background-color: #566573;
+
+            }
+            .active{
+            background-color:  #AAB7B8;
+            color: black;
+            }
+
+
+h1{
+
+  /* position: absolute; */
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 100px;
+}
+
+h2{
+text-align: left ;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 50px;
+}
+#Igneous{
+  border-right: 0 solid rgba(0, 0, 0, .5);
+    text-align: justify;
+    float: left;
+width: 55%;
+font-family: 'Dancing Script', cursive;
+  }
+
+    img{
+        margin: 100px 0;
+     float: right;
+     height: 40vh;
+   }
+.slider{
+
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+  background-position: center;
+    height:70vh;
+  width: 100%;
+  animation: slide 20s infinite;
+}
+
+
+
+@keyframes slide{
+  0%{
+    background-image: url('images/rock1.jpg');
+  }
+  20%{
+    background-image: url('images/rock1.jpg');
+  }
+  20.01%{
+    background-image: url('images/rock2.jpg');
+  }
+  40%{
+    background-image: url('images/rock2.jpg');
+  }
+  40.01%{
+    background-image: url('images/rock3.jpg');
+  }
+  60%{
+    background-image: url('images/rock3.jpg');
+  }
+  60.01%{
+    background-image: url('images/rock4.jpg');
+  }
+  80%{
+    background-image: url('images/rock4.jpg');
+  }
+   80.01%{
+    background-image: url('images/rock5.jpg');
+  }
+   100%{
+    background-image: url('images/rock5.jpg');
+  }
+}
